@@ -72,17 +72,14 @@ export function MultiSelect(props: MultiSelectProps) {
           <Command className="w-full">
             <CommandInput placeholder="Search..." className="flex-1 bg-transparent outline-none placeholder:text-muted-foreground" />
             <CommandList>
-              {availableOptions.length > 0 ? (
-                <CommandGroup>
-                  {availableOptions.map((option) => (
-                    <CommandItem key={option.value} onSelect={() => handleSelect(option)} className={'cursor-pointer'}>
-                      {option.label}
-                    </CommandItem>
-                  ))}
-                </CommandGroup>
-              ) : (
-                <CommandEmpty>No results found</CommandEmpty>
-              )}
+              <CommandGroup>
+                {availableOptions.map((option) => (
+                  <CommandItem key={option.value} onSelect={() => handleSelect(option)} className={'cursor-pointer'}>
+                    {option.label}
+                  </CommandItem>
+                ))}
+              </CommandGroup>
+              <CommandEmpty>No results found</CommandEmpty>
             </CommandList>
           </Command>
         </ScrollArea>

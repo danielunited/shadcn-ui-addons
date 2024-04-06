@@ -5,7 +5,7 @@ import { Label } from '@/components/ui/label';
 import { Input } from '@/components/ui/input';
 
 export default {
-  title: 'Molecules/Responsive Dialog',
+  title: 'Responsive Dialog',
   tags: ['autodocs'],
   args: {},
   parameters: {
