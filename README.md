@@ -10,7 +10,7 @@ This repo includes a bunch of components to supplmenet [shadcn/ui](https://ui.sh
 - [ ] Phone input
 
 ## Installation and usage
-Navigate to `app/src/stories`, copy the `.tsx` file of the component you want to use and paste into your own project.
+Navigate to `src/stories`, copy the `.tsx` file of the component you want to use and paste into your own project.
 
 ## Contributing
 Feel free to add new components by forking this repo and create a PR.
